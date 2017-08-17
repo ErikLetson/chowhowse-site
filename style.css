@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Chowhowsetitlefont";
+    src: url("fonts/titlefont.woff") format('woff');
+}
+
+html, body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+a {
+    color: #0000ff;
+}
+
+a:active {
+    color: #ffff00;
+}
+
+a:visited {
+    color: #ff00ff;
+    outline: none;
+}
+
+.title {
+    font-size: 72px;
+    color: #ffffff;
+    font-family: Chowhowsetitlefont;
+    margin: 0;
+    padding: 0;
+}
+
+.lang {
+    margin: 0;
+    padding: 0;
+}
+
+.langtitle {
+    padding: 6px;
+}
+
+.langlink {
+    color: #0000ff;
+    padding: 6px;
+}
+
+.navlink {
+    color: #0000ff;
+    padding: 6px;
+    margin: 30px;
+    padding-top: 3px;
+}
+
+#curlang {
+    padding: 6px;
+}
+
+#page-container {
+   margin: 2px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   padding: 0;
+   top: 2px;
+   left: 0px;
+   right: 0px;
+   position: relative;
+   min-height: 100%;
+}
+
+#header-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+}
+
+#banner-section {
+    background-color: #000000;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 84px;
+    position: absolute;
+}
+
+#langbanner-section {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #ffffff;
+    top: 85px;
+    right: 0;
+    left: 0;
+    height: 24px;
+    position: absolute;
+}
+
+#column-container {
+    float: left;
+    overflow: hidden;
+    top: 88px;
+    left: 0;
+    right: 0;
+    position: relative;
+    background: #ccc url(../images/tile.jpg) repeat 50% 0;
+    padding-bottom: 60px;
+}
+
+#main-content {
+    box-sizing: border-box;
+    float: left;
+    width: 86%;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 84px;
+}
+
+#right-sidebar {
+    box-sizing: border-box;
+    float: left;
+    right: 0;
+    left: 0;
+    width: 12.25%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    margin: 2px;
+    padding: 6px;
+}
+
+#footer-container {
+    clear:both;
+    position: relative;
+    width: 99.55%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 96px;
+    padding: 2px;
+    margin-top: -96px;
+    z-index: 10;
+}
+
+#top-footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 44px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+#bottom-footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    padding: 6px;
+}
+
+#copyright {
+    padding: 10px;
+}
